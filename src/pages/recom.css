@@ -1,0 +1,14 @@
+div.main{
+    background-color: white;
+}
+.line {
+    height: 1px;
+    background-color: #dbdbdb;
+    width: 10%;
+    margin: 40px auto;
+}
+.quote p {
+    color: #424242;
+    font-size: 18px;
+    font-style: italic;
+}

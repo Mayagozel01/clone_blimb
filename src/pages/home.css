@@ -1,0 +1,148 @@
+   .circle {
+                width: 30px;
+                height: 30px;
+                background-color: #3498db;
+                border-radius: 50%;
+                position: absolute;
+                z-index: 100;
+                opacity: 0;
+            }
+            .ex{
+                opacity: 0;
+            }
+               
+    @keyframes pulse {
+        0% {
+            transform: scale(0.8);
+            opacity: 0.5;
+        }
+        50% {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(0.8);
+            opacity: 0.5;
+        }
+    } 
+    .ex1{
+        top: 48%;
+        left: 49%;
+        animation: pulse 1.8s 20;
+    }
+    @keyframes updown {
+        0% {
+            top:0;
+        }
+        25% {
+            top:48%;
+        }
+        50% {
+            top:95%;
+        }
+        75%{
+            top:48%
+        }
+        100%{
+            top:0;
+        }
+    }
+        .ex2{
+            top: 0;
+            opacity: 1;
+            left: 49%;
+            animation: updown 5s 20;
+        }
+        @keyframes left-right{
+            0% {
+                left:0;
+            }
+            25% {
+                left:48%;
+            }
+            50% {
+                left:97%;
+            }
+            75%{
+                left:48%
+            }
+            100%{
+                left:0;
+            }
+        }
+        .ex4 {
+            top:49%;
+            opacity:1;
+            animation: left-right 6.5s infinite;
+        }
+      
+        @keyframes diagonal{
+            0%{
+                transform: translate(1vw, 95vh);
+            }
+            25%{
+                transform: translate(1vw, 0);
+
+            }
+            50%{
+                transform: translate(98vw, 95vh);
+            }
+            75%{
+                transform: translate(98vw,0);
+            }
+            100%{
+                transform: translate(1vw, 95vh);
+            }
+        }
+        .ex5{
+            opacity: 1;
+            animation: diagonal  10s linear  infinite ;
+        }
+        @keyframes rotate{
+            0%{ transform: rotate(0deg) translate(-390px) rotate(0deg) ; 
+              }
+            
+            100%{ transform: rotate(360deg)translate(-390px)rotate(-360deg);}
+        }
+        @-webkit-keyframes   rotate{
+            0%{ transform: rotate(0deg) translate(-390px); 
+              }
+            100%{ transform: rotate(360deg) translate(-390px) ;}
+        }
+        .ex7{
+            opacity: 1;
+            animation: rotate 5s linear infinite ;  
+            -webkit-animation: rotate 5s linear infinite ;
+            top:0;
+            left:0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+        @keyframes spiral{
+            0%{ transform: rotate(360deg)translate(-390px)rotate(-360deg);opacity: 1;}
+            10%{ transform: rotate(330deg)translate(-350px)rotate(330deg);opacity: 0.9;}
+            20%{ transform:  rotate(300deg)translate(-325px) rotate(300deg);opacity: 0.8;  }
+            30%{ transform: rotate(260deg)translate(-300px)rotate(260deg);opacity: 0.7;}
+             40%{ transform:  rotate(225deg)translate(-275px) rotate(225deg);opacity: 0.6;}
+              60%{ transform:  rotate(150deg)translate(-250px) rotate(150deg); opacity: 0.5;}
+              70%{ transform:  rotate(100deg)translate(-225px) rotate(100deg); opacity: 0.5;}
+              80%{transform: rotate(75deg) translate(-200px) rotate(75deg); opacity: 0.4;}
+              90%{transform: rotate(50deg) translate(-150px) rotate(50deg); opacity: 0.3;}
+            100%{ transform: rotate(0deg) translate(-10px) rotate(0deg) ; opacity: 0.1;        }
+        }
+        /* @-webkit-keyframes   spiral{
+            0%{ transform: rotate(0deg) translate(-300px) rotate(0deg); 
+              }
+            100%{ transform: rotate(360deg) translate(-300px)rotate(-360deg) ;}
+        } */
+        .ex8{
+            opacity: 1;
+            animation: rotate 7s linear infinite ;  
+            -webkit-animation: spiral 7s linear infinite ;
+            top:0;
+            left:0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }

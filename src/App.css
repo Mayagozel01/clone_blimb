@@ -1,0 +1,169 @@
+/* @keyframes mymove {
+  from   {background: linear-gradient(45deg, rgb(68,125,127), rgb(98,125,125)); }
+  to {background: linear-gradient(45deg, rgb(145,125,127), rgb(197,125,125));  }
+} */
+
+html{
+  background: #354c74;
+  animation: mymove 0.9s infinite;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.eyes{
+  width: 170px;
+  height: 100px;
+  background: transparent url('./icons/eyes.png') 0 0 no-repeat;
+  background-size: 100%;
+
+}
+.my-height{
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.animation {
+  animation: close 0.5s steps(5);
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes close {
+  0%{
+    background-position: 0 0;
+  } 
+  100%{
+    background-position: 0 -947px;
+  }
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+.footer p{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  background: rgba(236, 236, 236, .16);
+}
+p>svg{
+  margin-right: 5px;
+}
+
+.update-x{
+  left: auto;
+  right: 20px;
+  top: 22px;
+  width: 13px;
+  height: 13px;
+  background: url(./icons/x.png) no-repeat;
+  transition: background 1s;  
+}
+.update-x:hover{
+  background: url(./icons/x_hover.png);
+}
+.settings img{
+  position:absolute;
+  top:98vh;
+  transform:translateY(-100%);
+}
+
+.min-eye{
+  width: 90px;
+  height: 50px;
+  margin: 10px;
+  background: transparent url('./icons/an-minieye.png') 0 -740px no-repeat;
+  background-size: 100%;
+  z-index: -1;
+
+}
+.animation1 {
+  animation: open 0.5s steps(5);
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+.animation3{
+animation: up 1s;
+animation-fill-mode: forwards;
+animation-delay: 0.5s;
+opacity:0;
+}
+@keyframes up{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes open {
+  0%{
+    background-position: 0 -740px;
+  } 
+  100%{
+    background-position: 0 0;
+  }
+}
+.sound-bg{
+  background-image: url('./icons/icons.png');
+  width: 26px;
+  height: 24px;
+  transition: all 0.8s;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}
+.sound-bg:hover{
+  opacity: 1;
+}
+.active{
+  order:1;
+}
+.sound-bg1{
+  background-position: 0 0;
+}
+.sound-bg2{
+  background-position: 0 -30px;
+}
+.sound-bg3{
+  background-position: 0 -100px;
+}
+.sound-bg4{
+  background-position: 0 -65px;
+}
+input.range{
+  writing-mode: vertical-lr;
+  direction: rtl;
+  vertical-align: middle;
+  accent-color: white;
+  
+}
+
+.volume-bg{
+  background-image: url('./icons/volume.png');
+  width: 26px;
+  height: 18px;
+  transition: all 0.01s;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}
+
+.volume-bg1{
+  background-position: 0 0;
+}
+.volume-bg2{
+  background-position: 0 -18px;
+}
+.volume-bg3{
+  background-position: 0 -36px;
+}
+.volume-bg4{
+  background-position: 0 -54px;
+}
