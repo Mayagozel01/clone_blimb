@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mayagozel01.github.io/clone_blimb/static/css/main.8bd7a306.css",
-    "main.js": "/mayagozel01.github.io/clone_blimb/static/js/main.ef6a57e1.js",
-    "static/js/453.d431e078.chunk.js": "/mayagozel01.github.io/clone_blimb/static/js/453.d431e078.chunk.js",
-    "static/media/audio3.wav": "/mayagozel01.github.io/clone_blimb/static/media/audio3.4b92e28ef11651457ad7.wav",
-    "static/media/audio2.wav": "/mayagozel01.github.io/clone_blimb/static/media/audio2.673b0c74ea6970544711.wav",
-    "static/media/audio1.wav": "/mayagozel01.github.io/clone_blimb/static/media/audio1.86bb748b22190001ec6c.wav",
-    "static/media/an-minieye.png": "/mayagozel01.github.io/clone_blimb/static/media/an-minieye.b4d6eff44082bc14b36d.png",
-    "static/media/eyes.png": "/mayagozel01.github.io/clone_blimb/static/media/eyes.27ef202c147b66850052.png",
-    "static/media/volume.png": "/mayagozel01.github.io/clone_blimb/static/media/volume.006afe70eda178afbade.png",
-    "static/media/setting.png": "/mayagozel01.github.io/clone_blimb/static/media/setting.b8182e7319e675fc7ca6.png",
-    "static/media/logo.png": "/mayagozel01.github.io/clone_blimb/static/media/logo.baea204525149dbb1fa2.png",
-    "static/media/x_hover.png": "/mayagozel01.github.io/clone_blimb/static/media/x_hover.244d14974805fa985e1a.png",
-    "static/media/x.png": "/mayagozel01.github.io/clone_blimb/static/media/x.58dc5a2b24fa0c47ad58.png",
-    "index.html": "/mayagozel01.github.io/clone_blimb/index.html",
-    "main.8bd7a306.css.map": "/mayagozel01.github.io/clone_blimb/static/css/main.8bd7a306.css.map",
-    "main.ef6a57e1.js.map": "/mayagozel01.github.io/clone_blimb/static/js/main.ef6a57e1.js.map",
-    "453.d431e078.chunk.js.map": "/mayagozel01.github.io/clone_blimb/static/js/453.d431e078.chunk.js.map"
+    "main.css": "/clone_blimb/static/css/main.6f8c374a.css",
+    "main.js": "/clone_blimb/static/js/main.d40e1665.js",
+    "static/js/453.d431e078.chunk.js": "/clone_blimb/static/js/453.d431e078.chunk.js",
+    "static/media/audio3.wav": "/clone_blimb/static/media/audio3.4b92e28ef11651457ad7.wav",
+    "static/media/audio2.wav": "/clone_blimb/static/media/audio2.673b0c74ea6970544711.wav",
+    "static/media/audio1.wav": "/clone_blimb/static/media/audio1.86bb748b22190001ec6c.wav",
+    "static/media/an-minieye.png": "/clone_blimb/static/media/an-minieye.b4d6eff44082bc14b36d.png",
+    "static/media/eyes.png": "/clone_blimb/static/media/eyes.27ef202c147b66850052.png",
+    "static/media/volume.png": "/clone_blimb/static/media/volume.006afe70eda178afbade.png",
+    "static/media/setting.png": "/clone_blimb/static/media/setting.b8182e7319e675fc7ca6.png",
+    "static/media/logo.png": "/clone_blimb/static/media/logo.baea204525149dbb1fa2.png",
+    "static/media/x_hover.png": "/clone_blimb/static/media/x_hover.244d14974805fa985e1a.png",
+    "static/media/x.png": "/clone_blimb/static/media/x.58dc5a2b24fa0c47ad58.png",
+    "index.html": "/clone_blimb/index.html",
+    "main.6f8c374a.css.map": "/clone_blimb/static/css/main.6f8c374a.css.map",
+    "main.d40e1665.js.map": "/clone_blimb/static/js/main.d40e1665.js.map",
+    "453.d431e078.chunk.js.map": "/clone_blimb/static/js/453.d431e078.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bd7a306.css",
-    "static/js/main.ef6a57e1.js"
+    "static/css/main.6f8c374a.css",
+    "static/js/main.d40e1665.js"
   ]
 }
