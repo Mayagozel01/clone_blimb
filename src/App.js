@@ -6,7 +6,7 @@ import Recom from './pages/Recommendations';
 
 function App(){
   return(
-    <BrowserRouter>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/recom" element={<Recom />} />
